@@ -35,13 +35,23 @@ const promptUser = () => {
       },
       {type: 'list',
     name: 'license',
-choices: ['MIT', 'HARRY']}
+choices: ['MIT', 'HARRY']},
+{
+    type: 'input',
+    name: 'userName',
+    message: 'What is your githun user name ?'
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'what is your email?'
+}
     ]);
     
   };
 
   const generateReadme = (answers) =>
-  ` <font=6> ${answers.title} </font>
+  ` <font=6><span styl="color:red"> ${answers.title} </span></font>
   
   <font=4> Description </font>
   ${answers.description}
