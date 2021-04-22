@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 			return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]`
 
 		case "none":
-			return `""`
+			return ``
 	}
 }
 
@@ -48,7 +48,7 @@ function renderLicenseLink(license) {
 			return `https://opensource.org/licenses/BSD-3-Clause`
 
 		case "none":
-			return `""`
+			return ``
 	}
 }
 
@@ -1045,7 +1045,7 @@ Public License instead of this License.  But first, please read
       USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
 
 		case "none":
-			return `""`
+			return ``
 	}
 }
 
@@ -1053,30 +1053,30 @@ Public License instead of this License.  But first, please read
 function generateMarkdown(answers) {
   
 	const readme= 
-  ` <font size ="6"><span styl="color:red"> ${answers.title} </span></font>
+  ` <font size ="6"><span styl="color:red"> **${answers.title} **</span></font>
   
-  <font size="4"> Description </font>
+  <font size="4"> ##Description </font>\n
   ${answers.description}
 
-  <font=4> Installation </font>
+  <font=4> ##Installation </font>\n
   ${answers.installation}
 
-  <font size="4"> Usag </font>
+  <font size="4">## Usag </font>\n
   ${answers.usage}
 
-  <font size="4"> Contributions </font>
+  <font size="4"> ##Contributions </font>\n
   ${answers.contributors}
 
-  <font size="4"> Tests </font>
+  <font size="4">## Tests </font>\n
   ${answers.tests}
 
-<font size="4"> Questions </font>
+<font size="4"> ##Questions </font>\n
 For any further questions please email to\n
 ${answers.email}\n
-or Check out my gitHub profile @
+or Check out my gitHub profile @\n
 https://github.com/${answers.userName}
 
-  <font size="4> Licenses </font>
+  <font size="4"> ##Licenses </font>\n
   \n
   ${renderLicenseBadge(answers.license)}\n
   ${renderLicenseLink(answers.license)}\n
@@ -1084,7 +1084,7 @@ https://github.com/${answers.userName}
   
   `
   return readme
-console.log ("your readme looks like" + readme)
+
 
 }
 
