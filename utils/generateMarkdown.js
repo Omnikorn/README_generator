@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 			return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]`
 
 		case "none":
-			return ""
+			return `""`
 	}
 }
 
@@ -48,7 +48,7 @@ function renderLicenseLink(license) {
 			return `https://opensource.org/licenses/BSD-3-Clause`
 
 		case "none":
-			return ""
+			return `""`
 	}
 }
 
@@ -1045,7 +1045,7 @@ Public License instead of this License.  But first, please read
       USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
 
 		case "none":
-			return ""
+			return `""`
 	}
 }
 
@@ -1083,7 +1083,9 @@ https://github.com/${answers.userName}
   ${renderLicenseSection(answers.license)}
   
   `
+  return readme
 console.log ("your readme looks like" + readme)
+
 }
 
 module.exports = generateMarkdown

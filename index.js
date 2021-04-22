@@ -2,6 +2,8 @@ const fs = require("fs")
 const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
+// const writeFileAsync = util.promisify(fs.writeFile);
 const promptUser = () => {
     return inquirer.prompt([
       {
@@ -72,5 +74,12 @@ choices: ['MIT', 'Apache 2.0','GPL','BSD-2','BSD-3','BSD-4','None']},
   
   // `
 // console.log("your answers are:: " + answers)
+// const inint = () => {
 promptUser()
-.then((answers) => generateMarkdown(answers))
+
+.then((answers) => generateMarkdown(answers)) 
+.then((readme) => fs.writeFileSync("test.md", readme, (err)=>err ?console.log(err):console.log("ok")))
+// .then(()=>console.log("succefulify written your readme file"))
+// .catch((err)=>console.log(err));
+// }
+
