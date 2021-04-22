@@ -1,5 +1,6 @@
 const fs = require("fs")
 const inquirer = require('inquirer');
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const promptUser = () => {
     return inquirer.prompt([
@@ -35,7 +36,7 @@ const promptUser = () => {
       },
       {type: 'list',
     name: 'license',
-choices: ['MIT', 'HARRY']},
+choices: ['MIT', 'Apache 2.0','GPL','BSD-2','BSD-3','BSD-4','None']},
 {
     type: 'input',
     name: 'userName',
@@ -50,26 +51,26 @@ choices: ['MIT', 'HARRY']},
     
   };
 
-  const generateReadme = (answers) =>
-  ` <font=6><span styl="color:red"> ${answers.title} </span></font>
+  // const generateReadme = (answers) =>
+  // ` <font=6><span styl="color:red"> ${answers.title} </span></font>
   
-  <font=4> Description </font>
-  ${answers.description}
+  // <font=4> Description </font>
+  // ${answers.description}
 
-  <font=4> Installation </font>
-  ${answers.installation}
+  // <font=4> Installation </font>
+  // ${answers.installation}
 
-  <font size="4"> Usag </font>
-  ${answers.usage}
+  // <font size="4"> Usag </font>
+  // ${answers.usage}
 
-  <font size="4"> Contributions </font>
-  ${answers.contributors}
+  // <font size="4"> Contributions </font>
+  // ${answers.contributors}
 
-  <font size="4"> Tests </font>
-  ${answers.test}
+  // <font size="4"> Tests </font>
+  // ${answers.test}
 
   
-  `
+  // `
 // console.log("your answers are:: " + answers)
 promptUser()
-.then((answers) => console.log("your answers are:: " + generateReadme(answers)))
+.then((answers) => generateMarkdown(answers))
