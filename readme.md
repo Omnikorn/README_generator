@@ -3,6 +3,7 @@
   <font size="4" style="color:yellow"> Table of contents </font>
 
   <a href="#des">## Description</a>
+  * [Description](#description)
 
   <a href="#inst">## Installation</a>
 
@@ -11,13 +12,14 @@
   <a href="cont">## Contribution</a>
 
   <a href="#test">## Tests</a>
-
+  * [Tests](#tests)
   <a href="#quest">## Questions</a>
 
   <a href="#lic">## License</a>
 
   
-  <font id="des" size="4" style="color:yellow"> ##Description </font>
+  <font id="des" size="4" style="color:yellow"> 
+  ## Description </font>
 
 This is a command line application built using Nodejs, and inquirer. It automatically generates a readme markdown file based on the users answers to various prompt questions. 
 A table of content is also generated with links to the appropriate section within the page. 
@@ -26,7 +28,8 @@ The user is also asked to enter their GitHub user name and an automatic link to 
 ![image](https://user-images.githubusercontent.com/75341811/115892373-fdf49100-a44e-11eb-86cf-c80e97843e9c.png)
   
 
-  <font size="4" id="inst" style="color:yellow"> ##Installation </font>
+  <font size="4" id="inst" style="color:yellow"> 
+  ## Installation </font>
 
  After copying the repository please run “npm install” to install the inquirer package 
 
