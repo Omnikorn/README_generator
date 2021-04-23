@@ -1,68 +1,80 @@
- <font size ="6"><span styl="color:red"> the curry house </span></font>
+ <font size ="6"><span style="color:red"> **The auto readme generator **</span></font>
+
+  <font size="4" style="color:yellow"> Table of contents </font>
+
+  <a href="#des">Description</a>
+
+  <a href="#inst">Installation</a>
+
+  <a href="#use">Usage</a>
+
+  <a href="cont">Contribution</a>
+
+  <a href="#test">Tests</a>
+
+  <a href="#quest">Questions</a>
+
+  <a href="#lic">License</a>
+
   
-  <font size="4"> Description </font>
+  <font id="des" size="4" style="color:yellow"> ##Description </font>
 
-  nice yummy yumm
+  This is a command line application built using Nodejs, and inquirer. It automatically generates a readme markdown file based on the users answers to various prompt questions. 
 
-  <font=4> Installation </font>
+  <font size="4" id="inst" style="color:yellow"> ##Installation </font>
 
-  press enter
+  A table of content is also generated with links to the appropriate section within the page. 
 
-  <font size="4"> Usag </font>
+  <font size="4" id="use" style="color:yellow">## Usag </font>
+
+  run node index.js
+
+  <font size="4" id="cont" style="color:yellow"> ##Contributions </font>
+
+  harith albadry - sole author
+
+  <font size="4" id="test" style="color:yellow">## Tests </font>
 
   none
 
-  <font size="4"> Contributions </font>
-
-  toby and wombles
-
-  <font size="4"> Tests </font>
-
-  none
-
-<font size="4"> Questions </font>
+<font size="4" id="quest" style="color:yellow"> ##Questions </font>
 
 For any further questions please email to
 
-harith.albadry@gmail.com
+ha
 
 or Check out my gitHub profile @
 
 https://github.com/omnikorn
 
-  <font size="4> Licenses </font>
+  <font size="4" id="lic" style="color:green"> ##Licenses </font>
 
   
 
-  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)]
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-  https://opensource.org/licenses/BSD-2-Clause
+  https://opensource.org/licenses/MIT
 
-  Copyright (c) <year>, <copyright holder>
-      All rights reserved.
+  MIT License
+
       
-      Redistribution and use in source and binary forms, with or without
-      modification, are permitted provided that the following conditions are met:
       
-      1. Redistributions of source code must retain the above copyright notice, this
-         list of conditions and the following disclaimer.
-      2. Redistributions in binary form must reproduce the above copyright notice,
-         this list of conditions and the following disclaimer in the documentation
-         and/or other materials provided with the distribution.
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
       
-      THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-      ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-      WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-      DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
-      ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-      (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-      LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-      ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-      (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-      SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
       
-      The views and conclusions contained in the software and documentation are those
-      of the authors and should not be interpreted as representing official policies,
-      either expressed or implied, of the FreeBSD Project.
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.
   
   

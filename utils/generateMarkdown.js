@@ -1053,30 +1053,39 @@ Public License instead of this License.  But first, please read
 function generateMarkdown(answers) {
   
 	const readme= 
-  ` <font size ="6"><span styl="color:red"> **${answers.title} **</span></font>
+  ` <font size ="6"><span style="color:red"> **${answers.title} **</span></font>
+
+  <font size="4" style="color:yellow"> Table of contents </font>\n
+  <a href="#des">Description</a>\n
+  <a href="#inst">Installation</a>\n
+  <a href="#use">Usage</a>\n
+  <a href="cont">Contribution</a>\n
+  <a href="#test">Tests</a>\n
+  <a href="#quest">Questions</a>\n
+  <a href="#lic">License</a>\n
   
-  <font size="4"> ##Description </font>\n
+  <font id="des" size="4" style="color:yellow"> ##Description </font>\n
   ${answers.description}
 
-  <font=4> ##Installation </font>\n
+  <font size="4" id="inst" style="color:yellow"> ##Installation </font>\n
   ${answers.installation}
 
-  <font size="4">## Usag </font>\n
+  <font size="4" id="use" style="color:yellow">## Usag </font>\n
   ${answers.usage}
 
-  <font size="4"> ##Contributions </font>\n
+  <font size="4" id="cont" style="color:yellow"> ##Contributions </font>\n
   ${answers.contributors}
 
-  <font size="4">## Tests </font>\n
+  <font size="4" id="test" style="color:yellow">## Tests </font>\n
   ${answers.tests}
 
-<font size="4"> ##Questions </font>\n
+<font size="4" id="quest" style="color:yellow"> ##Questions </font>\n
 For any further questions please email to\n
 ${answers.email}\n
 or Check out my gitHub profile @\n
 https://github.com/${answers.userName}
 
-  <font size="4"> ##Licenses </font>\n
+  <font size="4" id="lic" style="color:yellow"> ##Licenses </font>\n
   \n
   ${renderLicenseBadge(answers.license)}\n
   ${renderLicenseLink(answers.license)}\n
