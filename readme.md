@@ -23,7 +23,7 @@ This is a command line application built using Nodejs, and inquirer. It automati
 A table of content is also generated with links to the appropriate section within the page. 
 The user is also given a number of license options to choose from for their software. A GitHub badge, the license text and a link to the appropriate webpage are also added to the page depending on the user’s answer. 
 The user is also asked to enter their GitHub user name and an automatic link to their profile page is generated under the “question” page. An email link is also created. 
-
+![image](https://user-images.githubusercontent.com/75341811/115892373-fdf49100-a44e-11eb-86cf-c80e97843e9c.png)
   
 
   <font size="4" id="inst" style="color:yellow"> ##Installation </font>
