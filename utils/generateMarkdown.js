@@ -1,7 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-	switch (license) {
+   /*
+   if (license === 'None'){
+      return '';
+   }
+   return `[![License: MIT](https://img.shields.io/badge/License-${license}-yellow.svg)]`
+   
+   */
+   switch (license) {
 		case "MIT":
 			return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
 
@@ -20,9 +27,10 @@ function renderLicenseBadge(license) {
 		case "BSD-4":
 			return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]`
 
-		case "none":
+		case "None":
 			return ``
-	}
+      }
+      
 }
 
 // TODO: Create a function that returns the license link
@@ -47,7 +55,7 @@ function renderLicenseLink(license) {
 		case "BSD-4":
 			return `https://opensource.org/licenses/BSD-3-Clause`
 
-		case "none":
+		case "None":
 			return ``
 	}
 }

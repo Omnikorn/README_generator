@@ -1,4 +1,4 @@
- <font size ="6"><span style="color:red"> **The auto readme generator **</span></font>
+ <font size ="6"><span style="color:red"> **a **</span></font>
 
   <font size="4" style="color:yellow"> Table of contents </font>
 
@@ -19,35 +19,35 @@
   
   <font id="des" size="4" style="color:yellow"> ##Description </font>
 
-  This is a command line application built using Nodejs, and inquirer. It automatically generates a readme markdown file based on the users answers to various prompt questions. 
+  a
 
   <font size="4" id="inst" style="color:yellow"> ##Installation </font>
 
-  A table of content is also generated with links to the appropriate section within the page. 
+  a
 
   <font size="4" id="use" style="color:yellow">## Usag </font>
 
-  run node index.js
+  a
 
   <font size="4" id="cont" style="color:yellow"> ##Contributions </font>
 
-  harith albadry - sole author
+  a
 
   <font size="4" id="test" style="color:yellow">## Tests </font>
 
-  none
+  a
 
 <font size="4" id="quest" style="color:yellow"> ##Questions </font>
 
 For any further questions please email to
 
-ha
+email
 
 or Check out my gitHub profile @
 
-https://github.com/omnikorn
+https://github.com/hello
 
-  <font size="4" id="lic" style="color:green"> ##Licenses </font>
+  <font size="4" id="lic" style="color:yellow"> ##Licenses </font>
 
   
 

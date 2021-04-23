@@ -2,19 +2,19 @@
 
   <font size="4" style="color:yellow"> Table of contents </font>
 
-  <a href="#des">Description</a>
+  <a href="#des">## Description</a>
 
-  <a href="#inst">Installation</a>
+  <a href="#inst">## Installation</a>
 
-  <a href="#use">Usage</a>
+  <a href="#use">## Usage</a>
 
-  <a href="cont">Contribution</a>
+  <a href="cont">## Contribution</a>
 
-  <a href="#test">Tests</a>
+  <a href="#test">## Tests</a>
 
-  <a href="#quest">Questions</a>
+  <a href="#quest">## Questions</a>
 
-  <a href="#lic">License</a>
+  <a href="#lic">## License</a>
 
   
   <font id="des" size="4" style="color:yellow"> ##Description </font>
