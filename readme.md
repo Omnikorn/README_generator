@@ -1,26 +1,25 @@
- <font size ="6"><span style="color:red"> **The auto readme generator **</span></font>
+# **The Auto Readme Generator  -TARG-**
 
-  <font size="4" style="color:yellow"> Table of contents </font>
+## Table of contents
 
-  <a href="#des">## Description</a>
-  * [Description](#description)
+  
+* [Description](#description)
 
-  <a href="#inst">## Installation</a>
+  
+* [Installation](#installation)
+  
+* [usage](#usage)
+  
+* [contribution](#contribution)
+  
+* [Tests](#tests)
+  
+* [Questions](#questions)
+  
+* [License](#license)
 
-  <a href="#use">## Usage</a>
-
-  <a href="cont">## Contribution</a>
-
-  <a href="#test">## Tests</a>
-  * [Tests](#tests)
-  <a href="#quest">## Questions</a>
-
-  <a href="#lic">## License</a>
-
-## Description
-  <font id="des" size="4" style="color:yellow"> 
-  ## Description </font>
-
+>## Description
+  
 This is a command line application built using Nodejs, and inquirer. It automatically generates a readme markdown file based on the users answers to various prompt questions. 
 A table of content is also generated with links to the appropriate section within the page. 
 The user is also given a number of license options to choose from for their software. A GitHub badge, the license text and a link to the appropriate webpage are also added to the page depending on the user’s answer. 
@@ -28,24 +27,29 @@ The user is also asked to enter their GitHub user name and an automatic link to 
 ![image](https://user-images.githubusercontent.com/75341811/115892373-fdf49100-a44e-11eb-86cf-c80e97843e9c.png)
   
 
-  <font size="4" id="inst" style="color:yellow"> 
-  ## Installation </font>
+
+  
+>## Installation 
 
  After copying the repository please run “npm install” to install the inquirer package 
 
-  <font size="4" id="use" style="color:yellow">## Usag </font>
+
+>## Usag 
 
   Please run "node index.js" to start the application
 
-  <font size="4" id="cont" style="color:yellow"> ##Contributions </font>
+
+>## Contributions 
 
   Harith Albadry - sole author
 
-  <font size="4" id="test" style="color:yellow">## Tests </font>
+
+>## Tests 
 
   None
 
-<font size="4" id="quest" style="color:yellow"> ##Questions </font>
+
+>## Questions 
 
 For any further questions please email :
 
@@ -55,7 +59,7 @@ or Check out my gitHub profile @
 
 https://github.com/omnikorn
 
-  <font size="4" id="lic" style="color:green"> ##Licenses </font>
+>## Licenses 
 
   
 
