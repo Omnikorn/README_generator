@@ -59,5 +59,5 @@ choices: ['MIT', 'Apache 2.0','GPL','BSD-2','BSD-3','BSD-4','None']},
 promptUser()
 
 .then((answers) => generateMarkdown(answers)) 
-.then((readme) => fs.writeFileSync("test.md", readme, (err)=>err ?console.log(err):console.log("File created successfully")))
+.then((readme) => fs.writeFileSync("auto_readme.md", readme, (err)=>err ?console.log(err):console.log("File created successfully")))
 
